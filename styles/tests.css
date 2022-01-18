@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{  
+    margin: 0;
+}
+
+/*Table*/
+table{
+    font-family: 'Lato', sans-serif;
+    margin:  25%  auto;
+    border: .5px solid black;
+   border-collapse: collapse;
+  
+
+}
+
+table.test-table{
+   background-color: rgb(255, 255, 255);
+}
+
+table.test-table th{
+
+    padding-left: 20px;
+    text-align: left;
+    border: .5px solid rgb(0, 0, 0);
+    font-weight: 400;
+    
+}
+
+
+
+table.test-table td{
+    font-weight: 100;
+    border: .1px solid rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.name{
+ color: red;
+ font-weight: 500;
+ padding-right:10rem;
+}
+
+.grade{
+    text-align: center;
+}
+
+
+/*FORMS*/
+
+form{
+    margin:auto 25%;
+}
